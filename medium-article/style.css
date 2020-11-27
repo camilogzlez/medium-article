@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.body{
+  background-color: #FFFFFF;
+}
+.banner{
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding: 120px 0;
+  text-align: center;
+}
+.container{
+  max-width: 800px;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+.container h2{
+  color: #A0A0A0;
+}
+.article-paragraphs{
+ color: #494949
+}
+a{
+  color: #9ba4b4;
+  text-decoration: none;
+   color: white;
+   /* background-color:  #16697a; */
+   padding: 8px 16px;
+   border-radius: 5px;
+   font-family: 'Montserrat', sans-serif;
+  background-image: linear-gradient(#16697a, gray);
+}
+
+a:hover {
+  color: black;
+ background-image: linear-gradient(#57b1c3, rgba(128, 128, 128, 0.76));
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    padding: 10px
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    padding: 10px
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    padding: 10px
+  }
